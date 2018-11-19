@@ -1,0 +1,35 @@
+{
+  "nodes": [
+    {"atom": "研发中心", "size": 20, "fill":"blue"},
+    {"atom": "工程技术中心", "size": 20, "fill":"blue"},
+    {"atom": "技术管理中心", "size": 20, "fill":"black"},
+    {"atom": "合同", "size": 40, "fill":"Coral"},
+    {"atom": "产品", "size": 40, "fill":"Coral"},
+    {"atom": "财务", "size": 40, "fill":"Coral"},
+    {"atom": "客户", "size": 40, "fill":"Coral"},
+    {"atom": "交付中心", "size": 20, "fill":"blue"},
+    {"atom": "海上业务", "size": 20, "fill":"blue"},
+    {"atom": "物流", "size": 40, "fill":"Coral"},
+    {"atom": "质控中心", "size": 20, "fill":"blue"},
+    {"atom": "金风国际", "size": 20, "fill":"blue"},
+    {"atom": "员工", "size": 40, "fill":"Coral"}
+  ],
+  "links": [
+    {"source": 3, "target": 1,  "bond": 1},
+    {"source": 3, "target": 0,  "bond": 1},
+    {"source": 4, "target": 2,  "bond": 1},
+    {"source": 4, "target": 1,  "bond": 1},
+    {"source": 4, "target": 2,  "bond": 1},
+    {"source": 4, "target": 10,  "bond": 1},
+    {"source": 6, "target": 11,  "bond": 1},
+    {"source": 5, "target": 0,  "bond": 1},
+    {"source": 5, "target": 7,  "bond": 1},
+    {"source": 9, "target": 8,  "bond": 1},
+    {"source": 6, "target": 8,  "bond": 1},
+    {"source": 3, "target": 11, "bond": 1},
+    {"source": 3, "target": 7,  "bond": 1},
+    {"source": 9, "target": 0,  "bond": 1},
+    {"source": 12, "target": 0, "bond": 1},
+    {"source": 4, "target": 0, "bond": 1}
+  ]
+}
